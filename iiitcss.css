@@ -1,0 +1,108 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:0;
+    
+}
+
+.front1{
+    background-color:rgb(180, 182, 182);
+    padding-bottom:0;
+    
+}
+b:hover
+{
+    color: rgb(105, 104, 103);
+}
+h3{
+    padding-top: 1%;
+    margin:0;
+    border-bottom:solid gray;
+    transition: 0.5s ease;
+}
+
+img{
+    width:100%;
+    padding-bottom: 5%;
+}
+
+.heading{
+text-align: center;
+padding-bottom: 5%;
+margin-top: 0;
+}
+.one{
+height:40%;
+width: 40%;
+}
+.row {
+margin-left:-5px;
+margin-right:-5px;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+border: 1px solid #ddd;
+}
+
+th, td {
+text-align: left;
+padding:1.5%;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+} 
+a{
+color: rgb(14, 9, 0);
+background-color: transparent;
+text-decoration: none;
+}
+.another
+{
+background-color: rgb(65, 66, 66);
+margin-bottom:0;
+}
+.para{
+    font-size:x-large;
+    position:relative;
+    text-align:justify;
+    
+
+}
+table{
+    border-color: rgb(65,66,66);
+}
+h5{
+    margin-top:0;
+    padding-top: 5%;
+}
+hr{
+    width:70%;
+    margin-right: 50%;
+    
+}
+h5{
+    color: white;
+    margin-bottom: 0;
+}
+.bottom{
+    background-color: rgb(4, 87, 87);
+    padding-bottom:5%;
+}
+.icon{
+    float: right;
+    padding-top: 3%;
+    padding-right:5%;
+    height:10%; 
+    width:10%;
+}
